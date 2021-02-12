@@ -7,7 +7,7 @@
 scale_fill_freshwater(palette = "main", discrete = TRUE, reverse = FALSE, ...)
 }
 \arguments{
-\item{palette}{c("Tajo", "Jarama", "Manzanares", "Culebro", "Aphanius", "Lepomis", "Cyprinus")}
+\item{palette}{Choose your favourite palette: "Tajo", "Jarama", "Manzanares", "Culebro", "Aphanius", "Lepomis" or "Cyprinus".}
 
 \item{discrete}{TRUE/FALSE}
 

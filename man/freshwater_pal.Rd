@@ -7,14 +7,13 @@
 freshwater_pal(palette = "main", reverse = FALSE, ...)
 }
 \arguments{
-\item{palette}{c("Tajo", "Jarama", "Manzanares", "Culebro", "Aphanius", "Lepomis", "Cyprinus")}
+\item{palette}{Choose your favourite palette: "Tajo", "Jarama", "Manzanares", "Culebro", "Aphanius", "Lepomis" or "Cyprinus"}
 
 \item{reverse}{TRUE/FALSE}
 }
 \description{
 This function allows to get a pallete by name from the list ("Tajo" by default).
-It also has a boolean condition determining whether to reverse the color order or not,
-and additional arguments to pass on to colorRampPallete()ular
+It also has a boolean condition determining whether to reverse the color order or not.
 }
 \examples{
 freshwater_pal("Tajo")
