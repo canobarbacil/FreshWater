@@ -1,5 +1,4 @@
 Package: FreshWater
-Type: Package
 Title: FreshWater
 Version: 0.1.0
 Author: person(given = "Carlos",
@@ -8,6 +7,9 @@ Author: person(given = "Carlos",
            email = "carlos.cano@udg.edu")
 Description: The FreshWater package provides color scales for plotting in R based on freshwater environments and colorful fish species. 
 License: GPL-2
+Suggests: 
+    testthat
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
