@@ -93,6 +93,7 @@ scale_color_freshwater <- function(palette = "main", discrete = TRUE, reverse = 
 #' ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
 #'   geom_point(shape = 21, size = 2, alpha = 1) +
 #'   scale_fill_freshwater(discrete = FALSE, palette = "Jarama")+
+#'   ggtitle("Jarama")+theme_test()+ theme(legend.position = "none")")
 #'
 scale_fill_freshwater <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- freshwater_pal(palette = palette, reverse = reverse)
