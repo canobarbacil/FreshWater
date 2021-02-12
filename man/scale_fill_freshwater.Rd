@@ -9,13 +9,6 @@ scale_fill_freshwater(palette = "main", discrete = TRUE, reverse = FALSE, ...)
 \description{
 Colour your ggplot2 graphs with FreshWater palettes.
 }
-\examples{
-ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
-  geom_point(shape = 21, size = 2, alpha = 1) +
-  scale_fill_freshwater(discrete = FALSE, palette = "Jarama")+
-  ggtitle("Jarama")+theme_test()+ theme(legend.position = "none")")
-
-}
 \author{
 Carlos Cano-Barbacil
 }
