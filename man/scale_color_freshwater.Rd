@@ -6,6 +6,13 @@
 \usage{
 scale_color_freshwater(palette = "main", discrete = TRUE, reverse = FALSE, ...)
 }
+\arguments{
+\item{palette}{c("Tajo", "Jarama", "Manzanares", "Culebro", "Aphanius", "Lepomis", "Cyprinus")}
+
+\item{discrete}{TRUE/FALSE}
+
+\item{reverse}{TRUE/FALSE}
+}
 \description{
 Colour your ggplot2 graphs with FreshWater palettes.
 }

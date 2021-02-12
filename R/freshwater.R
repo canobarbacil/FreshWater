@@ -43,6 +43,8 @@ mycols <- function(...) {
 #' @description This function allows to get a pallete by name from the list ("Tajo" by default).
 #' It also has a boolean condition determining whether to reverse the color order or not,
 #' and additional arguments to pass on to colorRampPallete()ular
+#' @param palette c("Tajo", "Jarama", "Manzanares", "Culebro", "Aphanius", "Lepomis", "Cyprinus")
+#' @param reverse TRUE/FALSE
 #' @author Carlos Cano-Barbacil
 #' @examples
 #' freshwater_pal("Tajo")
@@ -69,6 +71,9 @@ freshwater_pal <- function(palette = "main", reverse = FALSE, ...) {
 
 #' @title scale_color_freshwater
 #' @description Colour your ggplot2 graphs with FreshWater palettes.
+#' @param palette c("Tajo", "Jarama", "Manzanares", "Culebro", "Aphanius", "Lepomis", "Cyprinus")
+#' @param discrete TRUE/FALSE
+#' @param reverse TRUE/FALSE
 #' @author Carlos Cano-Barbacil
 #' @examples
 #' ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
@@ -88,6 +93,9 @@ scale_color_freshwater <- function(palette = "main", discrete = TRUE, reverse = 
 
 #' @title scale_fill_freshwater
 #' @description Colour your ggplot2 graphs with FreshWater palettes.
+#' @param palette c("Tajo", "Jarama", "Manzanares", "Culebro", "Aphanius", "Lepomis", "Cyprinus")
+#' @param discrete TRUE/FALSE
+#' @param reverse TRUE/FALSE
 #' @author Carlos Cano-Barbacil
 #' @examples
 #' ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
